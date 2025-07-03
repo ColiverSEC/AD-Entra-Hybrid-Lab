@@ -96,6 +96,29 @@ Initially, I set up a lab using a made-up domain for Active Directory testing. A
 
 ---
 
+## 📁 Scripts
+
+- [CreateUsers.ps1](./scripts/CreateUsers.ps1) - Creates users in bulk from names.txt
+- [Create_HybridOUs.ps1](./scripts/Create_HybridOUs.ps1) - Creates a hybrid OU structure for role separation
+- [Create_Security_Tier_GPOs.ps1](./scripts/Create_Security_Tier_GPOs.ps1) - Builds GPOs for security tiering
+- [Create_and_link_GPOs.ps1](./scripts/Create_and_link_GPOs.ps1) - Links GPOs to OUs
+- [names.txt](./scripts/names.txt) - Source file containing user first/last names
+
+---
+
+## 📸 Screenshots
+
+| Description                     | Image |
+|---------------------------------|-------|
+| AD DS Setup                     | ![](./Screenshots/AD%20DS%20Setup.png) |
+| DNS & DHCP Configuration        | ![](./Screenshots/DNS-DHCP%20Config.png) |
+| GPMC with GPOs Applied          | ![](./Screenshots/GPMC%20with%20GPOs.png) |
+| Azure Domain Verification       | ![](./Screenshots/Azure%20Domain%20Verification.png) |
+| Entra Connect Sync Complete     | ![](./Screenshots/Entra%20Connect%20Sync.png) |
+| Users Synced to Entra ID        | ![](./Screenshots/Users%20Synced%20to%20Entra%20ID.png) |
+
+---
+
 ## 🔗 Links
 
 - [Josh Madakor's YouTube Tutorial](https://www.youtube.com/watch?v=MHsI8hJmggI)
